@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* 
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;
+
+*/
+:root{
+    --primary: #FFF2e7;
+    --secondary: #ECD6C4;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(70deg, #2F2325 16.62%, #8E5D52 85.61%);
+    font-family: 'Sarala', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: inline;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--primary);
+}
+.cabecalho img {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu li a {
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.conteudo-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0;
+}
+.conteudo-principal-texto h1{
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--primary);
+}
+.conteudo-principal-texto h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--secondary);
+}
+.conteudo-principal-texto button{
+    background-color: var(--primary);
+    width: 180px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: var(--secondary);
+    padding-bottom: 40px;
+    
+}
+
+.conteudo-secundario h3{
+    border-top: 0.4px solid var(--primary);
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+}
+.conteudo-secundario p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.rodape {
+    padding: 50px;
+    border-top: 0.4px solid var(--secondary);
+    text-align: center;
+}
+
+.rodape img{
+    height: 40px;
+}
